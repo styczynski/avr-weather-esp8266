@@ -4,8 +4,6 @@
 
 [See the full docs!](http://styczynski.ml/avr-weather-esp8266/)
 
-![Live preview](http://styczynski.ml/avr-weather-esp8266/view.gif)
-
 ![Scheme](http://styczynski.ml/avr-weather-esp8266/scheme.svg)
 
 ### Short description
