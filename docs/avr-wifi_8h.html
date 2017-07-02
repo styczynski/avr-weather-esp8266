@@ -27,6 +27,7 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="gol.js"></script>
         <script type="text/javascript" src="doxy-boot.js"></script>
         <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -210,6 +211,8 @@ Variables</h2></td></tr>
 <p>Determines buffer length of internal command buffer. </p>
 <p>The responses from ESP8266 normally should never fill this up! </p>
 
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00038">38</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
+
 </div>
 </div>
 <a id="a104b3e3e1fe02b4bcc40850af48e604d"></a>
@@ -231,6 +234,8 @@ Variables</h2></td></tr>
 <li>ESP8266 received data and returns +IPD command then the data is captured and listening ends. </li>
 </ul>
 
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00183">183</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
+
 </div>
 </div>
 <a id="abdeb4a83db88d78846878d5f474b86c0"></a>
@@ -251,6 +256,8 @@ Variables</h2></td></tr>
 <li>timeout event occurs when waiting for status info </li>
 </ul>
 
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00171">171</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
+
 </div>
 </div>
 <a id="ae7e9f5e2d45c2524e192ed588305f552"></a>
@@ -267,6 +274,8 @@ Variables</h2></td></tr>
 
 <p>Event triggered on any message from ESP8266. </p>
 <p>This event always precedes any other event. </p>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00123">123</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 
 </div>
 </div>
@@ -285,6 +294,8 @@ Variables</h2></td></tr>
 <p>Data +IPD event. </p>
 <p>Triggered when ESP8266 receives data. </p>
 
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00059">59</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
+
 </div>
 </div>
 <a id="ae067a17c45a5f3b8d9905463a15bde1f"></a>
@@ -301,6 +312,8 @@ Variables</h2></td></tr>
 
 <p>ERROR event. </p>
 <p>Signalizes ESP8266 module has send ERROR command. </p>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00073">73</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 
 </div>
 </div>
@@ -319,6 +332,8 @@ Variables</h2></td></tr>
 <p>OK event. </p>
 <p>Signalizes ESP8266 module has received and correctly executed the command. </p>
 
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00066">66</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
+
 </div>
 </div>
 <a id="a44f829f444be785d22bb96407a39596a"></a>
@@ -336,6 +351,8 @@ Variables</h2></td></tr>
 <p>Event when theres not response from module but is should be one. </p>
 <p>(data / OK status etc. was expected but nothing happened) </p>
 
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00116">116</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
+
 </div>
 </div>
 <a id="a2bea9175d8cc49bf0c16488ac59fa60c"></a>
@@ -352,6 +369,8 @@ Variables</h2></td></tr>
 
 <p>Unknown event type. </p>
 <p>Occurs when the message from ESP8266 could not be properly categorized. </p>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00052">52</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 
 </div>
 </div>
@@ -398,6 +417,8 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00445">445</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -448,11 +469,10 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">event</td><td>event type (can be WIFI_EVENT_DATA etc.) </td></tr>
     <tr><td class="paramname">input</td><td>input string data </td></tr>
-    <tr><td class="paramname">len</td><td>length of data input</td></tr>
+    <tr><td class="paramname">len</td><td>length of data input </td></tr>
   </table>
   </dd>
 </dl>
-<p>The handler for wifi signals, must be defined elsewhere. </p>
 
 </div>
 </div>
@@ -485,6 +505,8 @@ Here is the call graph for this function:</div>
 <ul>
 <li>it disables ESP8266 echo (otherwise the library is kind of unfriendly) </li>
 </ul>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00491">491</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -547,6 +569,8 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00459">459</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -593,6 +617,8 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>zero if no error was reported, non-zero exit code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00309">309</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -636,6 +662,8 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00485">485</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -680,6 +708,8 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00303">303</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -723,6 +753,8 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00295">295</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 
 </div>
 </div>
@@ -771,6 +803,8 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00274">274</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -815,6 +849,8 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00474">474</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -855,6 +891,8 @@ Here is the call graph for this function:</div>
 <p>Execution-blocking waiting for +IPD data. </p>
 <p>See wifi_listen and WAIT_FOR_DATA.</p>
 <dl class="section return"><dt>Returns</dt><dd>zero if no error was reported, non-zero exit code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00434">434</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -893,6 +931,8 @@ Here is the call graph for this function:</div>
 <p>Execution-blocking waiting for status code. </p>
 <p>See wifi_listen and WAIT_FOR_STATUS.</p>
 <dl class="section return"><dt>Returns</dt><dd>zero if no error was reported, non-zero exit code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00429">429</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -919,6 +959,8 @@ Here is the call graph for this function:</div>
 
 <p>Internal command buffer. </p>
 <p>The responses from ESP8266 normally should never fill this up! </p>
+
+<p class="definition">Definition at line <a class="el" href="avr-wifi_8h_source.html#l00044">44</a> of file <a class="el" href="avr-wifi_8h_source.html">avr-wifi.h</a>.</p>
 
 </div>
 </div>

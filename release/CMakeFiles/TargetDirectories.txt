@@ -1,0 +1,16 @@
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/AvrProject.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/strip.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/upload_ardisp.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/upload.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/hex.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/upload_usbasp.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/disassemble.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/doc.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/eeprom.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/upload_usbtiny.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/upload_109.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/upload_eeprom.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/reset.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/avr_terminal.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/edit_cache.dir
+F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,239 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/Apps/WinAVR/bin/avr-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/3.8.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/Apps/WinAVR/bin/avr-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/3.8.1/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+avr-gcc.exe (WinAVR 20100110) 4.3.3
+Copyright (C) 2008 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_ad185/fast"
+/bin/make -f CMakeFiles/cmTC_ad185.dir/build.make CMakeFiles/cmTC_ad185.dir/build
+make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad185.dir/testCCompiler.c.obj
+/F/Apps/WinAVR/bin/avr-gcc.exe    -o CMakeFiles/cmTC_ad185.dir/testCCompiler.c.obj   -c "/F/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_ad185
+/F/Apps/WinAVR/bin/avr-gcc.exe      "CMakeFiles/cmTC_ad185.dir/testCCompiler.c.obj"   -o cmTC_ad185 
+make[1]: Leaving directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_edb5f/fast"
+/bin/make -f CMakeFiles/cmTC_edb5f.dir/build.make CMakeFiles/cmTC_edb5f.dir/build
+make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj
+/F/Apps/WinAVR/bin/avr-gcc.exe    -o CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj   -c /C/MinGW/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_edb5f
+/F/Apps/WinAVR/bin/avr-gcc.exe     -v "CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj"   -o cmTC_edb5f 
+Using built-in specs.
+Target: avr
+Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+Thread model: single
+gcc version 4.3.3 (WinAVR 20100110) 
+COMPILER_PATH=f:/apps/winavr/bin/../libexec/gcc/avr/4.3.3/;f:/apps/winavr/bin/../libexec/gcc/;f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+LIBRARY_PATH=f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/;f:/apps/winavr/bin/../lib/gcc/;f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edb5f'
+ f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_edb5f f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3 -Lf:/apps/winavr/bin/../lib/gcc -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc
+make[1]: Leaving directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_edb5f/fast"]
+  ignore line: [/bin/make -f CMakeFiles/cmTC_edb5f.dir/build.make CMakeFiles/cmTC_edb5f.dir/build]
+  ignore line: [make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/F/Apps/WinAVR/bin/avr-gcc.exe    -o CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj   -c /C/MinGW/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_edb5f]
+  ignore line: [/F/Apps/WinAVR/bin/avr-gcc.exe     -v "CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj"   -o cmTC_edb5f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.3.3 (WinAVR 20100110) ]
+  ignore line: [COMPILER_PATH=f:/apps/winavr/bin/../libexec/gcc/avr/4.3.3/]
+  ignore line: [f:/apps/winavr/bin/../libexec/gcc/]
+  ignore line: [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/]
+  ignore line: [f:/apps/winavr/bin/../lib/gcc/]
+  ignore line: [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edb5f']
+  link line: [ f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_edb5f f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3 -Lf:/apps/winavr/bin/../lib/gcc -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc]
+    arg [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [avr2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_edb5f] ==> ignore
+    arg [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o] ==> ignore
+    arg [-Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3] ==> dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3]
+    arg [-Lf:/apps/winavr/bin/../lib/gcc] ==> dir [f:/apps/winavr/bin/../lib/gcc]
+    arg [-Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib]
+    arg [CMakeFiles/cmTC_edb5f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3] ==> [F:/Apps/WinAVR/lib/gcc/avr/4.3.3]
+  collapse library dir [f:/apps/winavr/bin/../lib/gcc] ==> [F:/Apps/WinAVR/lib/gcc]
+  collapse library dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> [F:/Apps/WinAVR/avr/lib]
+  implicit libs: [c]
+  implicit dirs: [F:/Apps/WinAVR/lib/gcc/avr/4.3.3;F:/Apps/WinAVR/lib/gcc;F:/Apps/WinAVR/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_f4344/fast"
+/bin/make -f CMakeFiles/cmTC_f4344.dir/build.make CMakeFiles/cmTC_f4344.dir/build
+make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4344.dir/feature_tests.c.obj
+/F/Apps/WinAVR/bin/avr-gcc.exe   -std=c99 -o CMakeFiles/cmTC_f4344.dir/feature_tests.c.obj   -c "/F/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_f4344
+/F/Apps/WinAVR/bin/avr-gcc.exe      "CMakeFiles/cmTC_f4344.dir/feature_tests.c.obj"   -o cmTC_f4344 
+make[1]: Leaving directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c89] compiler features compiled with the following output:
+Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_997bd/fast"
+/bin/make -f CMakeFiles/cmTC_997bd.dir/build.make CMakeFiles/cmTC_997bd.dir/build
+make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_997bd.dir/feature_tests.c.obj
+/F/Apps/WinAVR/bin/avr-gcc.exe   -std=c89 -o CMakeFiles/cmTC_997bd.dir/feature_tests.c.obj   -c "/F/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_997bd
+/F/Apps/WinAVR/bin/avr-gcc.exe      "CMakeFiles/cmTC_997bd.dir/feature_tests.c.obj"   -o cmTC_997bd 
+make[1]: Leaving directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_2fd7d/fast"
+/bin/make -f CMakeFiles/cmTC_2fd7d.dir/build.make CMakeFiles/cmTC_2fd7d.dir/build
+make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fd7d.dir/testCXXCompiler.cxx.obj
+/F/Apps/WinAVR/bin/avr-g++.exe     -o CMakeFiles/cmTC_2fd7d.dir/testCXXCompiler.cxx.obj -c "/F/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_2fd7d
+/F/Apps/WinAVR/bin/avr-g++.exe       "CMakeFiles/cmTC_2fd7d.dir/testCXXCompiler.cxx.obj"   -o cmTC_2fd7d 
+make[1]: Leaving directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_645ee/fast"
+/bin/make -f CMakeFiles/cmTC_645ee.dir/build.make CMakeFiles/cmTC_645ee.dir/build
+make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj
+/F/Apps/WinAVR/bin/avr-g++.exe     -o CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj -c /C/MinGW/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_645ee
+/F/Apps/WinAVR/bin/avr-g++.exe      -v "CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_645ee 
+Using built-in specs.
+Target: avr
+Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+Thread model: single
+gcc version 4.3.3 (WinAVR 20100110) 
+COMPILER_PATH=f:/apps/winavr/bin/../libexec/gcc/avr/4.3.3/;f:/apps/winavr/bin/../libexec/gcc/;f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+LIBRARY_PATH=f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/;f:/apps/winavr/bin/../lib/gcc/;f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_645ee'
+ f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_645ee f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3 -Lf:/apps/winavr/bin/../lib/gcc -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc
+make[1]: Leaving directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys/1.0/bin/make.exe" "cmTC_645ee/fast"]
+  ignore line: [/bin/make -f CMakeFiles/cmTC_645ee.dir/build.make CMakeFiles/cmTC_645ee.dir/build]
+  ignore line: [make[1]: Entering directory `/f/Projects/projects/My Projects/Development/Temporary/avr-projects/avr-weather-esp8266/release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/F/Apps/WinAVR/bin/avr-g++.exe     -o CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj -c /C/MinGW/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_645ee]
+  ignore line: [/F/Apps/WinAVR/bin/avr-g++.exe      -v "CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_645ee ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.3.3 (WinAVR 20100110) ]
+  ignore line: [COMPILER_PATH=f:/apps/winavr/bin/../libexec/gcc/avr/4.3.3/]
+  ignore line: [f:/apps/winavr/bin/../libexec/gcc/]
+  ignore line: [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/]
+  ignore line: [f:/apps/winavr/bin/../lib/gcc/]
+  ignore line: [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_645ee']
+  link line: [ f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_645ee f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3 -Lf:/apps/winavr/bin/../lib/gcc -Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc]
+    arg [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [avr2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_645ee] ==> ignore
+    arg [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o] ==> ignore
+    arg [-Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3] ==> dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3]
+    arg [-Lf:/apps/winavr/bin/../lib/gcc] ==> dir [f:/apps/winavr/bin/../lib/gcc]
+    arg [-Lf:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib]
+    arg [CMakeFiles/cmTC_645ee.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3] ==> [F:/Apps/WinAVR/lib/gcc/avr/4.3.3]
+  collapse library dir [f:/apps/winavr/bin/../lib/gcc] ==> [F:/Apps/WinAVR/lib/gcc]
+  collapse library dir [f:/apps/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> [F:/Apps/WinAVR/avr/lib]
+  implicit libs: [m;c]
+  implicit dirs: [F:/Apps/WinAVR/lib/gcc/avr/4.3.3;F:/Apps/WinAVR/lib/gcc;F:/Apps/WinAVR/avr/lib]
+  implicit fwks: []
+
+

@@ -18,8 +18,11 @@
 #include "lcd.h"
 #include "avr-wifi.h"
 
-char* USSID = "StyczynWIFI";
-char* PASSWD = "qwertyui";
+/*
+// Wifi access point ussid and password (to connect to)
+**/
+char* USSID = "PiterS";
+char* PASSWD = "05#Wi4P*97";
 
 /**
 // Some containers for weather data
