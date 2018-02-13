@@ -3,11 +3,11 @@
 
 ### About
 
-[See the full docs!](http://styczynski.ml/avr-weather-esp8266/)
+[See the full docs!](http://styczynski.in/avr-weather-esp8266/)
 [And also see this on git!](https://github.com/isis97/avr-weather-esp8266)
 
 
-![Video](http://styczynski.ml/avr-weather-esp8266/view.gif)
+![Video](http://styczynski.in/avr-weather-esp8266/view.gif)
 
 ### Short description
 
@@ -84,7 +84,7 @@ In settings mode:
 
 Schematic of connections (pretty small - try to enlarge with zooming hand):
 
-![Scheme](http://styczynski.ml/avr-weather-esp8266/scheme.svg)
+![Scheme](http://styczynski.in/avr-weather-esp8266/scheme.svg)
 
 **Notice:**
 
